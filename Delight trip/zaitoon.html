@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Dancing+Script&family=Indie+Flower&family=Kdam+Thmor+Pro&family=Lobster&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="zaitoon.css">
+    <script>
+        function Mymenue(){
+            document.getElementById("dropmenue").classList.toggle("show");
+        }
+        window.onclick=function(event){
+            if(!event.target.matches('.dropcontent'))
+            {
+                var dropdowns = 
+                document.getElementsByClassName("dropcnontent");
+                var i;
+                for(i=0; i<dropdowns.length; i++)
+                {
+                    var opendropdown = dropdowns[i];
+                    if 
+                    (opendropdown.classList.contains('show'))
+                    {
+                        opendropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+ 
+<body>
+    <header>
+         <!-- <div class="head-main"> -->
+            <div class="logo-div">
+                 <img class="web-logo" src="images/website-logo.jpeg" alt="">
+            </div>
+            <div class="nave-div">
+              <ul class="header-list">
+                <a href="home.html"> <li> Home </li> </a> 
+                <a href="about.html"> <li> About </li> </a>
+                <a href="contact.html"> <li> Contact </li> </a>
+              </ul>
+            </div>
+            <div class="menue-div">
+                <img class="menue-img" src="images/menue.png" alt="" onclick="Mymenue()">
+                <div id="dropmenue" class="dropcontent">
+                    <ul class="menue-list">
+                        <a href="atrraction.html"> <li> Top Atractions</li> </a>
+                        <a href="restaurant.html"> <li> Top Restaurant</li> </a>
+                        <a href="supermarket.html"> <li> Top Supermarkets</li> </a>
+                        <a href="hotels.html"> <li> Top Hotels</li> </a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="zaiton-img-div">
+            <img class="zaiton-img" src="images/zaiton4.jpg" alt="" style="height:500px ; width:100%;">
+                <h1 class="zaiton-name">
+                   Zaitoon Restaurant
+                </h1>
+                
+            </div>
+            <p class="zaiton-description">
+                Zaitoon restaurant is the popular restaurant in kandahar <br>
+                that make testy food with alot of services
+            </p>
+            <a href="https://www.google.com/maps/@31.6096763,65.6933517,15z/data=!5m1!1e1">
+                <button class="zaiton-button">Viwe location</button>
+            </a>
+                <br> <br> <br> <br> <br> <br> <br>
+            <h1 class="services-h2">
+                services
+            </h1>
+            <br> <br> <br>
+            <div class="services-main-div">
+                <div class="services-sub-div">
+                    <img class="services-img" src="images/wifi (1).png" alt=""> <br>
+                    <span class="services-name">Free wifi</span>
+                </div>
+                <div class="services-sub-div">
+                    <img class="services-img" src="images/dinner-table.png" alt=""> <br>
+                    <span class="services-name" style="margin-left: 90px;">Family room</span>
+                </div>
+                <div class="services-sub-div">
+                    <img class="services-img" src="images/conference.png" alt=""> <br>
+                    <span class="services-name" style="margin-left:75px;">Conference room</span>
+                </div>
+                <div class="services-sub-div">
+                    <img class="services-img" src="images/motorbike (1).png" alt=""> <br>
+                    <span class="services-name" style="margin-left:117px;">Delivery</span>
+                </div>
+            </div>
+            
+            <br>
+            <div class="menue-main-div">
+                <h1 style=" margin-left:600px;"> Restaurant Menue</h1>
+                <div style="height:40px; width:91%; margin-left:10px; margin-top:50px; ">
+                    <h2 style="background-color: orangered ; margin-left:100px;margin-rigt:100px">kabab</h2>
+                </div>
+                <div class="food-main-div">
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/kabab.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/kabab2.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/kabab3.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/kabab4.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/kabab6.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/kabab7.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/kabab5.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/kabab8.jpg" alt="">
+                    </div>
+                </div>
+                <div style="height:40px; width:91%; margin-left:10px; ">
+                    <h2 style="background-color: orangered ; margin-left:100px;margin-rigt:100px;margin-top:50px;">Palaw and Biryani</h2>
+                </div>
+                <div class="food-main-div2">
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/palaw1.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/palaw10.jpeg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/palaw2.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/palaw4.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/palaw5.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/palaw3.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/palaw8.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/palaw7.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/palaw6.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/palaw9.jpeg" alt="">
+                    </div>
+                </div>
+                <!-- menue3 -->
+                <div style="height:40px; width:91%; margin-left:10px; ">
+                    <h2 style="background-color: orangered ; margin-left:100px;margin-rigt:100px;margin-top:50px;">Pizza and Burger</h2>
+                </div>
+                <div class="food-main-div3">
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/burger2.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/burger1.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/pizza1.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/burger4.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/burger3.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/pizza2.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/burger5.jpg" alt="">
+                    </div>
+                </div>
+                <!-- menue4 -->
+                <div style="height:40px; width:91%; margin-left:10px; ">
+                    <h2 style="background-color: orangered ; margin-left:100px;margin-rigt:100px;margin-top:50px;">Other food</h2>
+                </div>
+                <div class="food-main-div3">
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/other1.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/other2.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/other3.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/other4.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/other5.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/other6.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/other7.jpeg" alt="">
+                    </div>
+                </div>
+                <!-- menue5 -->
+                <div style="height:40px; width:91%; margin-left:10px; ">
+                    <h2 style="background-color: orangered ; margin-left:100px;margin-rigt:100px;margin-top:50px;">Ice Cream</h2>
+                </div>
+                <div class="food-main-div4">
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/ice2.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/ice3.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/ice1.jpg" alt="">
+                    </div>
+                </div>
+                <!-- menue6 -->
+                <div style="height:40px; width:91%; margin-left:10px; margin-top:50px; ">
+                    <h2 style="background-color: orangered ; margin-left:100px;margin-rigt:100px">Juice</h2>
+                </div>
+                <div class="food-main-div">
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/juic.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/juic2.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/juic3.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/juic5.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/juic6.jpg" alt="">
+                    </div>
+                    <div class="food-sub-div">
+                        <img class="food-img" src="images/juic4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
