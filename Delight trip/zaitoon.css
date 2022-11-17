@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family: roboto, arial;
+    background-color: rgb(225, 224, 224);
+}
+.zaiton-img-div{
+    height: 500px;
+    width: 100%;
+}
+.zaiton-img{
+    height: 500px;
+    width: 100%;
+}
+.zaiton-name{
+    text-align: center;
+    margin-top: -350px;
+    margin-left: -800px;
+    color: orange;
+    font-size: 45px;
+}
+.zaiton-description { 
+    font-size: 25px;
+    color:white;
+    line-height: 40px;
+    word-spacing: 6px;
+    margin-top: -280px;
+    margin-left: 160px;
+}
+.zaiton-button{
+    height: 50px;
+    width: 150px;
+    color:white;
+    background-color: orangered;
+    margin-left: 164px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.services-h2{
+    margin-left: 47%;
+}
+.services-main-div{
+    margin-bottom: 100px;
+    height: 180px;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+.services-sub-div{
+    margin-left: 30px;
+}
+.services-img{
+    margin-top: 10px;
+    margin-left: 100px;
+    height: 100px;
+    width: 100px;
+}
+.services-name{
+    font-size: 22px;
+    margin-left: 110px;
+}
+.menue-main-div{
+    padding-top: 10px;
+    height: 3640px;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+}
+.food-main-div{
+    height: 500px;
+    width: 85%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+}
+.food-sub-div{
+    margin: 10px;
+   
+}
+.food-sub-div:hover{
+    box-shadow: 5px 5px 10px gray;
+    transform:scale(1.1,1.1)
+}
+.food-img{
+   width: 270px;
+   height: 220px;
+}
+
+.food-main-div2{
+    height: 750px;
+    width: 85%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+.food-main-div3{
+    height: 500px;
+    width: 85%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    display: grid;
+}
+.food-main-div4{
+    height: 250px;
+    width: 85%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+
+
