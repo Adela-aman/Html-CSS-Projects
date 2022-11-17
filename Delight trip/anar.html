@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Dancing+Script&family=Indie+Flower&family=Kdam+Thmor+Pro&family=Lobster&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="anar.css">
+    <script>
+        function Mymenue(){
+            document.getElementById("dropmenue").classList.toggle("show");
+        }
+        window.onclick=function(event){
+            if(!event.target.matches('.dropcontent'))
+            {
+                var dropdowns = 
+                document.getElementsByClassName("dropcnontent");
+                var i;
+                for(i=0; i<dropdowns.length; i++)
+                {
+                    var opendropdown = dropdowns[i];
+                    if 
+                    (opendropdown.classList.contains('show'))
+                    {
+                        opendropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+ 
+<body>
+    <header>
+         <!-- <div class="head-main"> -->
+            <div class="logo-div">
+                 <img class="web-logo" src="images/website-logo.jpeg" alt="">
+            </div>
+            <div class="nave-div">
+              <ul class="header-list">
+                <a href="home.html"> <li> Home </li> </a> 
+                <a href="about.html"> <li> About </li> </a>
+                <a href="contact.html"> <li> Contact </li> </a>
+              </ul>
+            </div>
+            <div class="menue-div">
+                <img class="menue-img" src="images/menue.png" alt="" onclick="Mymenue()">
+                <div id="dropmenue" class="dropcontent">
+                    <ul class="menue-list">
+                        <a href="atrraction.html"> <li> Top Atractions</li> </a>
+                        <a href="restaurant.html"> <li> Top Restaurant</li> </a>
+                        <a href="supermarket.html"> <li> Top Supermarkets</li> </a>
+                        <a href="hotels.html"> <li> Top Hotels</li> </a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="anar-img-div">
+            <img class="anar-img" src="images/anar.jpeg" alt="" style="height:500px ; width:100%;">
+                <h1 class="anar-name">
+                 Anar Restaurant
+                </h1>
+                
+            </div>
+            <p class="anar-description">
+                Anar restaurant is the popular restaurant in kandahar <br>
+                that make testy food with alot of services
+            </p>
+            <a href="https://www.google.com/maps/@31.6138058,65.6942953,16z">
+                <button class="anar-button">Viwe location</button>
+            </a>
+                <br> <br> <br> <br> <br> <br> <br>
+                <div class="services-div">
+                    <h1 class="services-h2">
+                        services
+                    </h1>
+                    <div class="services-imag-div">
+                        <div class="service-div">
+                            <img class="service-img" src="images/partty.jpg" alt="">
+                            <h2 class="service-name">Parrty Roome</h2>
+                        </div>
+                        <div class="service-div">
+                            <img class="service-img" src="images/parking.jpg" alt="">
+                            <h2 class="service-name">Parking</h2>
+                        </div>
+                        <div class="service-div">
+                            <img class="service-img" src="images/lobistan.jpg" alt="">
+                            <h2 class="service-name">Lobistan</h2>
+                        </div>
+                    </div>
+                </div>
+            <div class="menue-main-div">
+                <h1 style="text-align:center; font-size:36px;background-color:orangered; "> Menue </h1>
+                <div class="menue-img-main-div">
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar1.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar2.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar4.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar3.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar5.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar6.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar7.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar8.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar9.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar10.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar11.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar12.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar13.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar14.jpg" alt="">
+                    </div>
+                    <div class="menue-img-sub-div">
+                        <img class="food-menue-img" src="images/anar15.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+          
+           
+    </body>
+</html>
