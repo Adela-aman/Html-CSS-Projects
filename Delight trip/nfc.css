@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family: roboto, arial;
+    background-color: rgb(225, 224, 224);
+}
+.nfc-img-div{
+    height: 500px;
+    width: 100%;
+}
+.nfc-img{
+    height: 500px;
+    width: 100%;
+}
+.nfc-name{
+    text-align: center;
+    margin-top: -350px;
+    margin-left: -800px;
+    color: orangered;
+    font-size: 45px;
+}
+.nfc-description { 
+    font-size: 25px;
+    color:yellow;
+    font-weight: 600;
+    line-height: 40px;
+    word-spacing: 6px;
+    margin-top: -280px;
+    margin-left: 160px;
+}
+.nfc-button{
+    height: 50px;
+    width: 150px;
+    color:white;
+    background-color: orangered;
+    margin-left: 164px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.services-div{
+    width: 96%;
+    height: 500px;
+    margin: auto;
+}
+.services-h2{
+    font-size: 35px;
+    text-align: center;
+}
+.services-imag-div{
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    margin-left: 37px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    column-gap: 10px;
+}
+.service-div{
+    background-color: white;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgb(150, 150, 150);
+}
+.service-img{
+    height: 270px;
+    width: 250px;
+}
+.service-name{
+    margin-top: 30px;
+    text-align: center;
+    color: orangered;
+    align-items: center;
+}
+.menue-main-div{
+    background-color:white;
+    height: 900px;
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+}
+.menue-img-main-div{
+    /* background-color: palevioletred; */
+    height: 820px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+.menue-img-sub-div{
+    margin: 5px;
+}
+.menue-img-sub-div:hover{
+        box-shadow: 5px 5px 10px gray;
+        transform:scale(1.1,1.1)
+   
+}
+.food-menue-img{
+    width: 270px;
+   height: 240px;
+   margin-left: 1px;
+}
