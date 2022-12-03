@@ -1,0 +1,32 @@
+
+center  h1{
+    color: orange;
+    margin-top: 200px;
+    display: block;
+}
+p{
+    font-size: 15px;
+    font-weight: 10px;
+    margin-top: 300;
+    height: 100;
+    display: block;
+    position: relative;
+    
+
+
+}
+img{
+    height: 30px;
+    width: 600;
+    margin-top: 15px;
+    top: 15px;
+    bottom: 10px;
+}
+
+h1{
+    color:orangered;
+}
+.ul-li{
+    font-size: 200;
+
+}
