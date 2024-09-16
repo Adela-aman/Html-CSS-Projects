@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    background-image: url("images/aino2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: roboto, arial;
+}
+/* .body-div
+{   
+    margin-top: -48px;
+    height: 600px;
+    width: 100%;
+    background-image: url("images/aino.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-y: none;
+ 
+} */
+h1{
+    margin-top: 80px;
+    margin-left: 250px;
+    font-size: 65px;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.practic{
+    height: 600px;
+    width: 100%;
+}
